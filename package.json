@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-visonic-powerlink2",
+  "version": "1.0.0",
+  "description": "Visonic PowerLink2 plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "visonic",
+    "powerlink2",
+    "powermax"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0",
+    "homebridge": ">=0.4.38"
+  },
+  "dependencies": {
+    "request": "^2.85.0",
+    "visonic-powerlink2": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelmcneela/homebridge-visonic-powerlink2"
+  },
+  "bugs": "https://github.com/michaelmcneela/homebridge-visonic-powerlink2/issues",
+  "license": "MIT"
+}
